@@ -41,11 +41,24 @@ html, body{
 
 /*// ELEMENTS TO ANIMATE //*/
 
-
+.mario{
+  position:absolute;
+  top: -70px;
+  left: 0;
+  
+  animation-name:drive;
+  animation-duration: 3s;
+  animation-fill-mode:forwards;
+  animation-delay: 3s;
+}
 
 /*// KEYFRAMES //*/
 
-
+@keyframes drive {
+  
+  from{transform: translateX(0)}
+  to{transform: translateX(1100px)}
+}
 
 
 
