@@ -85,10 +85,10 @@ html, body{
   top:0px;
   box-sizing: border-box;
   cursor: pointer;
-  animation-name: wind;
+  /* animation-name: wind;
   animation-timing-function: linear;
-  animation-duration: 1s;
-/*  animation: wind 50s linear infinite reverse;*/
+  animation-duration: 1s; */
+ animation: wind 50s linear infinite reverse;
 }
 /*// KEYFRAMES //*/
 
